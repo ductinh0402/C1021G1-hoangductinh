@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>USER LIST</h1>
+<a href="/create">Create User</a>
+<p th:text="${mess}"></p>
+<table>
+
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user : ${userList}">
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.age}"></td>
+        <td>Edit</td>
+        <td>Delete</td>
+    </tr>
+    </tbody>
+</table>
+
+<div>
+    <a th:href="@{'/user'(page=${userList.number - 1})}"
+       th:if="${userList.hasPrevious()}">Previous</a>
+    <span th:text="${userList.number + 1}"></span>/     <span th:text="${userList.totalPages}"></span>
+    <a th:href="@{'/user'(page=${userList.number + 1})}"
+    th:if="${userList.hasNext()}">Next</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Create Phone</h1>
+<a th:href="@{/phone}">Back to Phone</a>
+
+<form  th:action="@{/add}" th:object="${phoneDto}" method="post">
+     <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" th:field="*{name}"></td>
+            <td><p style="color: red" th:if="${#fields.hasErrors()}" th:errors="*{name}"></p></td>
+        </tr>
+         <tr>
+             <td>Phone:</td>
+             <td><input type="text" th:field="*{numberPhone}"></td>
+             <td><p style="color: red" th:if="${#fields.hasErrors('numberPhone')}" th:errors="*{numberPhone}"></p></td>
+         </tr>
+         <tr>
+             <td></td>
+             <td><input type="submit" value="Create Phone"></td>
+         </tr>
+     </table>
+</form>
+</body>
+</html>
