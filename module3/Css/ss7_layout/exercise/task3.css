@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: arial
+}
+.topnav {
+    overflow: hidden;
+    background-color: #58257b;
+}
+.topnav a {
+
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.login{
+    float: right;
+}
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #58257b;
+    color: #f2f2f2;
+    margin-top: 10px;
+    clear: both;
+}
+.left{
+    width: 200px;
+    height: 400px;
+    float: left;
+}
+.content{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+.right{
+    width: 200px;
+    height: 400px;
+    float: right;
+}

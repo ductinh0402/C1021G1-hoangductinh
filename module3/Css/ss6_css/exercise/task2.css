@@ -1,0 +1,34 @@
+#check1 {
+
+    font-size: 50px;
+    border-bottom: solid 1px #6f6d6d;
+
+}
+
+.check2 {
+    font-size: 20px;
+    margin-top: -20px;
+    font-family: Verdana;
+}
+
+.check3 {
+    font-size: 20px;
+    padding: 0 0 0 60px;
+    font-weight: 600;
+    font-family: Verdana;
+}
+
+.check4 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Verdana;
+}
+ .check5{
+     color: rgba(4, 63, 186, 0.95);
+ }
+ .check6{
+     color: darkblue;
+ }
+ .check7{
+     padding: 60px;
+ }

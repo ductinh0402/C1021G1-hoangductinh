@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: block;
+}
+nav{
+    display:block;
+    padding: 20px;
+   background-color: #373b3e ;
+    text-align: center;
+
+}
+li{
+
+    font-size: 20px;
+    padding: 50px;
+    display:inline-block ;
+}
+ul {
+
+    display: inline-block;
+
+}
+.title{
+    padding: 20px;
+    font-size: 50px;
+    font-family: Verdana;
+}
+.story{
+    padding: 20px;
+    font-family: Verdana;
+}

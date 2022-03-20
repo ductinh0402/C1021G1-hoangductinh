@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43bfc750-2fb3-4ab7-8462-7b4efdf90011" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../module 2/src/CaseStudy/controller/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 2/src/CaseStudy/controller/FuramaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 2/src/CaseStudy/services/utils/FileWriteReadFurama.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 2/src/CaseStudy/services/utils/FileWriteReadFurama.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 2/src/module2_dethi_c1021g1/utils/FileProductsManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 2/src/module2_dethi_c1021g1/utils/FileProductsManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 2/src/ss12_java_collection_framwork/bai_tap/array_list/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 2/src/ss12_java_collection_framwork/bai_tap/array_list/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 2/src/ss12_java_collection_framwork/thuc_hanh/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 2/src/ss12_java_collection_framwork/thuc_hanh/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 2/src/ss7_abstract_interface/thuc_hanh/bai_3/CircleComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 2/src/ss7_abstract_interface/thuc_hanh/bai_3/CircleComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 2/src/ss9_automated_testing_tdd/thuc_hanh/SimpleCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 2/src/ss9_automated_testing_tdd/thuc_hanh/SimpleCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_customer/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/list_customer/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_customer/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/list_customer/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/list_customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-dictionary-jsp/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/simple-dictionary-jsp/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-dictionary-jsp/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/simple-dictionary-jsp/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-dictionary-jsp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/simple-dictionary-jsp/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple-dictionary-jsp/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-dictionary-jsp/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/src/main/webapp/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ss11_mvc_model/customer_management/src/main/webapp/customer/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="24wpIvexqgdNVaZ3nSN9oPtyZRC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ss11_mvc_model" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43bfc750-2fb3-4ab7-8462-7b4efdf90011" name="Changes" comment="" />
+      <created>1644551427142</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644551427142</updated>
+      <workItem from="1644551428468" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
