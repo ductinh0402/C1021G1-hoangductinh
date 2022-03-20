@@ -36,8 +36,8 @@
         <th scope="col"></th>
     </tr>
     </thead>
-    <tbody>
-    <tr th:each="blog : ${blogList}">
+    <tbody th:each="blog : ${blogList}">
+    <tr >
         <td th:text="${blog.id}"></td>
         <td>
             <a th:href="@{/view/__${blog.id}__}" th:text="${blog.name}"></a>
