@@ -1,5 +1,7 @@
 package com.example.productcart.dto;
 
+import com.example.productcart.model.Product;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -45,6 +47,15 @@ public class CartDto {
         } else {
             Map.Entry<ProductDto, Integer> itemEntry = selectItemInCart(product);
             Integer newQuantity = itemEntry.getValue() + 1;
+            products.replace(itemEntry.getKey(),newQuantity);
+        }
+    }
+    public void removeProduct(ProductDto product){
+        if (!checkItemInCart(product)){
+            products.put(product,1);
+        } else {
+            Map.Entry<ProductDto, Integer> itemEntry = selectItemInCart(product);
+            Integer newQuantity = itemEntry.getValue() - 1;
             products.replace(itemEntry.getKey(),newQuantity);
         }
     }

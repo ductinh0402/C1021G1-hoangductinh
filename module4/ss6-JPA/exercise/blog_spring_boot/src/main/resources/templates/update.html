@@ -1,0 +1,31 @@
+<div class="container-fluid" xmlns:th="http://www.thymeleaf.org">
+    <h1>EDIT BLOG</h1>
+    <div class="row">
+        <div class="col-12">
+            <form th:action="@{/update}" method="post" th:object="${blog}">
+                <input type="hidden" th:field="*{id}">
+                <input hidden type="date" th:text="${blog.date}" >
+                <input type="hidden" th:field="*{content}">
+                <div class="form-group">
+                    <label for="name-product">Name:</label>
+                    <input type="text" class="form-control" id="name-product" th:field="*{name}">
+                </div>
+                <div class="form-group">
+                    <label for="category">Category:</label>
+                    <select class="form-control" id="category" th:field="*{categories.id}">
+                        <option th:each="categories : ${categoryList}" th:value="${categories.id}"
+                                th:selected="${categories.id ==categoryId ? 'selected': 'false'}"
+                                th:text="${categories.name}"></option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <input type="text" class="form-control" id="description" th:field="*{description}">
+                </div>
+                <a class="btn btn-danger" th:href="@{/blog}">BACK TO BLOG</a>
+                <input type="submit" class="btn btn-primary" value="UPDATE">
+            </form>
+        </div>
+    </div>
+</div>
+

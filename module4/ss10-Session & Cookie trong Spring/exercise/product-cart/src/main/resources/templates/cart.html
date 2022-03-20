@@ -5,29 +5,35 @@
     <title>Title</title>
 </head>
 <body>
-<form  th:object="${cart}" method="post">
-    <h3>Total Items: <span th:text="${cart.countItemQuantity()}"></span> </h3>
-    <h3>Total Products: <span th:text="${cart.countProductQuantity()}"></span></h3>
+
+<form th:object="${cart}" method="post">
     <table>
-        <tr>
-            <th>Item</th>
-            <th>Quantity</th>
-            <th>Price</th>
-        </tr>
-
-        <tr th:each="product: ${cart.products}">
-           <td th:text="${product.getKey().name}"></td>
-<!--            <a th:href="${}"></a>-->
-           <td th:text="${product.getValue()}"></td>
-           <td th:text="${product.getKey().price}"></td>
-        </tr>
-
-        <tr>
-            <td>Total</td>
-            <td></td>
-            <td th:text="${cart.countTotalPayment()}"></td>
-        </tr>
+        <div class="container">
+            <div class="row">
+                <tr th:each="product: ${cart.products}" class="col-3">
+                    <img th:src="${product.getKey().image}" class="card-img-top" alt="..." width="100%">
+                    <td th:text="${product.getKey().name}"></td>
+                    <td>
+                        <a th:if="${product.getValue() >0}" id="decrease_button"
+                           th:href="@{/product/add/__${product.getKey().id}__(action='decrease')}"
+                           th:text="${'-'}"></a>
+                        <a id="increase_button" th:href="@{/product/add/__${product.getKey().id}__(action='increased')}"
+                           th:text="${'+'}"></a>
+                    </td>
+                    <td th:text="${product.getValue()}"></td>
+                    <td th:text="${product.getKey().price}"></td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td></td>
+                    <td th:text="${cart.countTotalPayment()}"></td>
+                </tr>
+            </div>
+        </div>
     </table>
+    <h3>Total Items: <span th:text="${cart.countItemQuantity()}"></span></h3>
+    <h3>Total Products: <span th:text="${cart.countProductQuantity()}"></span></h3>
+
 </form>
 
 </body>

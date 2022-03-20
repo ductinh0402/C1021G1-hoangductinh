@@ -1,27 +1,41 @@
 package com.example.blog_spring_boot.model;
 
 import javax.persistence.*;
-import java.time.LocalDate;
+import java.util.Date;
+
 
 @Entity
-@Table(name ="blog")
 public class Blog {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id ;
+    private int id;
     private String name;
+    @Column(columnDefinition = "longtext")
     private String content;
     private String description;
-    private LocalDate date;
+
+    @ManyToOne
+    @JoinColumn(name = "blog_id", referencedColumnName = "id")
+    private Category categories;
+    private Date date;
+
+    public Category getCategories() {
+        return categories;
+    }
+
+    public void setCategories(Category categories) {
+        this.categories = categories;
+    }
 
     public Blog() {
     }
 
-    public Blog(int id, String name, String content, String description, LocalDate date) {
+    public Blog(int id, String name, String content, String description, Category categories, Date date) {
         this.id = id;
         this.name = name;
         this.content = content;
         this.description = description;
+        this.categories = categories;
         this.date = date;
     }
 
@@ -33,11 +47,11 @@ public class Blog {
         this.description = description;
     }
 
-    public LocalDate getDate() {
+    public Date getDate() {
         return date;
     }
 
-    public void setDate(LocalDate date) {
+    public void setDate(Date date) {
         this.date = date;
     }
 
@@ -64,4 +78,5 @@ public class Blog {
     public void setContent(String content) {
         this.content = content;
     }
+
 }

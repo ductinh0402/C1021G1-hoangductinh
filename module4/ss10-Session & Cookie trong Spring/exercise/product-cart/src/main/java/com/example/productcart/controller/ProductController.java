@@ -13,8 +13,9 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.Optional;
 
 @Controller
-@RequestMapping("/product")
-@SessionAttributes("carts")
+    @RequestMapping("/product")
+@SessionAttributes("cart")
+//Chỗ này là cart không phải carts. haizz ok a
 public class ProductController {
     @Autowired
     private IProductService iProductService;
@@ -35,15 +36,26 @@ public class ProductController {
      return new ModelAndView("/view","product",iProductService.findById(id).get());
     }
      @GetMapping("/add/{id}")
-    public  String addCart(@PathVariable Long id ,@ModelAttribute("cart") CartDto cartDto){
+    public  String addCart(@PathVariable Long id ,@ModelAttribute("cart") CartDto cartDto,
+                           @RequestParam(value = "action" ,required = false) String action ){
          Optional<Product> productOptional=iProductService.findById(id);
-         if (productOptional.isPresent()){
-             ProductDto productDto=new ProductDto();
-             BeanUtils.copyProperties(productOptional.get(),productDto);
-             cartDto.addProduct(productDto);
+         ProductDto productDto=new ProductDto();
+         if (action==null){
+             action="";
          }
+         BeanUtils.copyProperties(productOptional.get(),productDto);
+         if (action.equals("increased")) {
+             cartDto.addProduct(productDto);
+             return "cart";
+         }
+         if (action.equals("decrease")){
+             cartDto.removeProduct(productDto);
+             return "cart";
+         }
+             cartDto.addProduct(productDto);
         return "cart";
      }
+
 
 
 
